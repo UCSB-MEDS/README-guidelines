@@ -2,9 +2,13 @@
 title: "MEDS README Guidelines"
 author: 
   - name: Sam Csik
+    url: https://samanthacsik.github.io/
   - name: Carmen Galaz Garcia
+    url: https://bren.ucsb.edu/people/carmen-galaz-garcia-0
   - name: Julien Brun
+    url: https://brunj7.github.io/about
   - name: Max Czapanskiy
+    url: https://flukeandfeather.com/
 date: August 19, 2024
 date-modified: last-modified
 format: 
