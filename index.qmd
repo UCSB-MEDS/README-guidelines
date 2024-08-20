@@ -1,0 +1,119 @@
+---
+title: "MEDS README Guidelines"
+author: 
+  - name: Sam Csik
+  - name: Carmen Galaz Garcia
+  - name: Julien Brun
+  - name: Max Czapanskiy
+date: August 19, 2024
+date-modified: last-modified
+format: 
+  html:
+    theme: meds-website-styles.scss
+    mainfont: Nunito
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+---
+
+## What is a README?
+
+
+## Repository-level READMEs
+
+You should always include a [README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in the root directory of your GitHub repositories. A README is typically the first item that visitors will see when they arrive at your repository. This makes them the perfect place to tell people what your project is, why it’s useful, and how to get started using it. What you include in a given README will look different depending on the project, but here are some guidelines for getting started:
+
+### Things you should *always* include in your GitHub repository READMEs: {#always-include}
+
+::: {.callout-important}
+These core elements are required for *all* MEDS-related homework assignments and projects.
+:::
+
+1. **A short, but descriptive title** 
+    - A README’s title is set to the repository name by default - change this!
+2. **A brief explanation of the repository’s purpose**
+    - Paragraphs or a bulleted list are both acceptable options
+    - You may include an image or logo that represents the project
+3. **A concise description of what’s housed in the repository**
+    - This includes information about the repository structure or file organization
+4. **Details regarding data access**
+   - Any necessary information on where data lives (e.g. is it housed in the repo, on a server, in a library/package etc.) and how to access it in order to run the code
+5. **A list of authors or current contributors (for collaborative work)**
+    - Consider hyperlinking collaborators' GitHub profiles or other professional profile
+6. **References** 
+    - In an appropriate, consistent format, including links.
+    - Don’t forget to add references for data sets too.
+    
+### Things you should consider including, but may vary depending on the goals and complexity of the project: {#consider-including}
+
+1. **How to install or where to start**
+    - Does your repository contain software that users will need to download or install? Do users access your software via a web browser? Do they need to install any dependencies? Do users need to clone your repository? etc.
+2. **A quick demo**
+    - Related to #1, above. It’s important to keep this concise! You may include images. Any long-form instructional documentation is best moved to the repository's wiki
+3. **What do do if a bug is spotted**
+    - Make mention of GitHub issues and what information a user should include in an issue
+4. **Contributing**
+    - Do you welcome contributions from others? If so, its important to explain how one might contribute (e.g. fork & pull request, open an issue, both?)
+5. **License**
+    - Important for allowing others to reuse your work (which is copyrighted, by default; [read about what it means when no license is available](https://choosealicense.com/no-permission/))
+    - What license you choose depends on what type of work you are trying to license. There are different licenses used for code/software, content, and data. Some helpful resources for getting started: 
+        a. *Licensing code / software:* check out this page,[ Choose an open source license](https://choosealicense.com/), by GitHub. A couple popular options for software include [MIT License](https://choosealicense.com/licenses/mit/) and [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+        b. *Licensing content (i.e. non-software):* check out this page, [About CC Licenses](https://creativecommons.org/share-your-work/cclicenses/), by Creative Commons. A few good CC options for non-software content include [CC BY](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1), [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), and [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+        c. *Licensing data:* You’ll chat more about this in [EDS 213 (Databases and Data Management)](https://bren.ucsb.edu/courses/eds-213)!
+6. **Acknowledgements**
+    - Provide reference to any other individuals or sources that supported the development of the repository. For example, did you fork an existing repository? Did the work have any funding sources? Were there individuals you consulted with or were inspired by?
+
+### Example GitHub repository READMEs: {#example-repo-readmes}
+
+Each project is different and so is its README! As you browse through different repositories you will see that not all of them have the same sections. However, they all offer a clear starting point for a newcomer to understand what the project is about. Here are some GitHub repositories with READMEs we like:
+
+- [strava-dashboard](https://github.com/samanthacsik/strava-dashboard), by Samantha Csik - code for a Shiny dashboard
+- [EDS-240-data-viz](https://github.com/samanthacsik/EDS-240-data-viz), by Samantha Csik - code for a course website
+- [thomas-fire](https://github.com/annaramji/thomas-fire), by Anna Ramji - a MEDS student project
+- [xarray](https://github.com/pydata/xarray) - a Python package for working with multidimensional arrays and datasets
+- [palmerpenguins](https://github.com/allisonhorst/palmerpenguins/) - an R package that contains teaching data
+- [metajam](https://github.com/NCEAS/metajam) - an R package for downloading and reading in metadata from repositories in the DataONE network
+- [awesome-readme](https://github.com/matiassingers/awesome-readme), by Matias Singers - a curated list of awesome READMEs
+
+## Organization-level READMEs
+
+You have the option to add both public (visible to anyone) and private (visible only to organization members) profile READMEs to separately serve each of those communities. The content you choose to include in an organization profile README is quite flexible, but it's often valuable to add the purpose of the organization, any high-level summary information, and links to important websites / external resources / specific repositories within the organization. Alternatively (or in addition to), you can update your organization's profile information, including a title and description, as well as relevant links. For example, see [NCAR's GitHub organization](https://github.com/NCAR):
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: "center"
+#| out-width: "100%"
+knitr::include_graphics("images/ncar.png")
+```
+
+In [EDS 411 (Capstone Project)](https://bren.ucsb.edu/courses/eds-411b), you’ll create a GitHub organization to house all your Capstone-related repositories and code. You’ll also be required to include specific information in your organization’s README (you’ll talk much more about the [required checklist](https://docs.google.com/document/d/10d9-h8UBC1JwZ08MdxI-WJhxfc7DnUolXjgBV1N-pJA/edit) in EDS 411!). In the meantime, check out a couple great examples of MEDS Capstone organizations, along with a few non-MEDS organizations, below.
+
+### Example GitHub organizations with added profile information:
+
+- [UCSB MEDS](https://github.com/UCSB-MEDS), by the Master of Environmental Data Science program (a place where MEDS admin organize teaching materials and other related content)
+- [The Nature Conservancy](https://github.com/thenatureconservancy), by TNC (scripts and apps from TNC scientists and geologists)
+- [LTER](https://github.com/lter), by the Long Term Ecological Research Network (a home for LTER projects and code)
+
+### Example (public) GitHub organization READMEs:
+
+- [Outdoor Equity](https://github.com/outdoor-equity), by Halina Do-Linh & Clarissa Boyajian (MEDS 2022 Capstone project) 
+- [CASAschools](https://github.com/CASAschools), by Liane Chen, Charlie Curtin, Kristina Glass & Hazel Vaquero (MEDS 2024 Capstone project)
+- [NMFS Open Science](https://github.com/nmfs-opensci), by the National Marine Fisheries Service (contains work which supports open science and open data literacy across NOAA fisheries)
+- [NASA Goddard Institute for Space Studies](https://github.com/NASA-GISS), by NASA (laboratory in the Earth Sciences Division of NASA’s Goddard Space Flight Center)
+- [GitHub](https://github.com/github), by GitHub (yes, GitHub is built on GitHub!)
+
+## Wikis
+
+While READMEs are used to provide a quick overview of what your project can do, wikis are used to provide additional documentation. From [GitHub Docs](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis):
+
+>“You can use your repository's wiki to share long-form content about your project, such as how to use it, how you designed it, or its core principles”
+
+A great way to streamline a repository's README is to move any documentation-style information to a wiki, and then link to the appropriate wiki page from your README. Each wiki page should focus on a single topic.
+
+### Example GitHub repository wikis: 
+- [Openscapes website wiki](https://github.com/Openscapes/website-new/wiki), by Openscapes (a user-guide of sorts; notes and conventions for Openscapes website maintainers and contributors) 
+- [NCEAS Roundtable (August 2023) workshop materials wiki](https://github.com/samanthacsik/cute-cats-dogs/wiki), by Samantha Csik (setup instructions for workshop participants)
+- [`{xaringan}` wiki](https://github.com/yihui/xaringan/wiki), by Yihui Xie (includes tips and further customizations that aren’t covered in the official R package documentation)
+
