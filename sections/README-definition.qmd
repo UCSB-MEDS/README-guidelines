@@ -11,14 +11,14 @@ format:
 
 ## What is a README?
 
-<!-- A README is a file... -->
+**A [README](https://en.wikipedia.org/wiki/README) is a text file that lives in a project directory (often the *root* directory) and provides essential information about the software / product to users, developers, and / or contributors.**
 
-<!-- ::: {.callout-note} -->
-<!-- ## Where did READMEs come from? -->
-<!-- No one knows exactly where READMEs originated,  -->
-<!-- ::: -->
+The exact origin of the README isn't totally clear, but they date back to [at least 1974](https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10) with the invention of [PDP-10](https://en.wikipedia.org/wiki/PDP-10), an early [mainframe computer](https://en.wikipedia.org/wiki/Mainframe_computer). A README accompanied PDP-10 with information on how to operate some of its programs.
 
-<!-- READMEs are not just a "GitHub thing" (though that's primarily where you'll be interacting with them). -->
+::: {.callout-note}
+## Why the all caps?
+The [ASCII](https://en.wikipedia.org/wiki/ASCII) (American Standard Code for Information Interchange) system sorts uppercase letters before lowercase ones. Running `ls` (to list files) in the command line will list the README near the top, making it one of the first files a user will encounter (ideal for a file that's meant to contain critical information about how to use / engage with directory content!).
+:::
 
-<!-- While you'll commonly come across content making reference to the importance of READMEs in accompanying package / module developement on GitHub, they are incredibly important documents to include with *all* repositories. -->
+Platforms like [GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) heavily encourage the use of README files (you can just check a box to add one when creating a new repository on GitHub). The contents of a README that lives in a repo's root directory are automatically displayed on the repo's landing page (but note that you can also include READMEs in subdirectories as well). GitHub supports the use of `README.md` files, which are written in [Markdown](https://en.wikipedia.org/wiki/Markdown).
 

@@ -11,7 +11,7 @@ format:
 
 ## Wikis {#wikis}
 
-While READMEs are used to provide a quick overview of what your project can do, wikis are used to provide additional documentation. From [GitHub Docs](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis):
+While READMEs are used to provide a quick overview of what your project is / does, wikis should be used to provide additional documentation. From [GitHub Docs](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis):
 
 >“You can use your repository's wiki to share long-form content about your project, such as how to use it, how you designed it, or its core principles”
 
