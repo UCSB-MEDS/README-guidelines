@@ -1,8 +1,10 @@
 # MEDS README Guidelines
 
+General guidelines and best practices for writing informative READMEs.
+
 ## Description
 
-General guidelines and best practices for writing informative READMEs. These guidelines are emphasized in [EDS 296 - Data Science Tools for Building Professional Online Portfolios](https://ucsb-meds.github.io/EDS-296-DS-portfolios/), but are meant to be reinforced throughout the MEDS program.
+These [README guidelines](https://ucsb-meds.github.io/README-guidelines/) are emphasized in [EDS 296 - Data Science Tools for Building Professional Online Portfolios](https://ucsb-meds.github.io/EDS-296-DS-portfolios/), but are meant to be reinforced throughout the MEDS program.
 
 ## Contributers
 
