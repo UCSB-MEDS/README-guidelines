@@ -1,0 +1,24 @@
+---
+format: 
+  html:
+    theme: meds-website-styles.scss
+    mainfont: Nunito
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+---
+
+## What is a README?
+
+<!-- A README is a file... -->
+
+<!-- ::: {.callout-note} -->
+<!-- ## Where did READMEs come from? -->
+<!-- No one knows exactly where READMEs originated,  -->
+<!-- ::: -->
+
+<!-- READMEs are not just a "GitHub thing" (though that's primarily where you'll be interacting with them). -->
+
+<!-- While you'll commonly come across content making reference to the importance of READMEs in accompanying package / module developement on GitHub, they are incredibly important documents to include with *all* repositories. -->
+

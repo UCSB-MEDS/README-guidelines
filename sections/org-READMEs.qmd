@@ -1,0 +1,41 @@
+---
+format: 
+  html:
+    theme: meds-website-styles.scss
+    mainfont: Nunito
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+---
+
+## Organization-level READMEs
+
+**You have the option to add both public (visible to anyone) and private (visible only to organization members) profile READMEs to separately serve each of those communities.** The content you choose to include in an organization profile README is quite flexible, but it's often valuable to add the purpose of the organization, any high-level summary information, and links to important websites / external resources / specific repositories within the organization. **Alternatively (or in addition to), you can update your organization's profile information, including a title and description, as well as relevant links -- these will appear across the top of your organization's landing page.** For example, see [LTER's GitHub organization](https://github.com/lter), which includes both updated profile information *and* a public README:
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: "center"
+#| out-width: "100%"
+knitr::include_graphics("images/lter-org.png")
+```
+
+::: {.callout-note}
+## You'll be asked to create an organization-level READMEs for your Capstone work
+In [EDS 411 (Capstone Project)](https://bren.ucsb.edu/courses/eds-411b), you'll create a GitHub organization to house all your Capstone-related repositories and code. You'll also be required to include specific information in your organization's README (you'll talk much more about the [required checklist](https://docs.google.com/document/d/10d9-h8UBC1JwZ08MdxI-WJhxfc7DnUolXjgBV1N-pJA/edit) in EDS 411). In the meantime, check out a few examples GitHub organizations and their associated README information.
+:::
+
+### Example GitHub organizations with added profile information:
+
+- **[UCSB MEDS](https://github.com/UCSB-MEDS)**, by the Master of Environmental Data Science program (a place where MEDS admin organize teaching materials and other related content)
+- **[The Nature Conservancy](https://github.com/thenatureconservancy)**, by TNC (scripts and apps from TNC scientists and geologists)
+- **[NCAR](https://github.com/NCAR)**, by the NSF National Center for Atmospheric Research (a home for NCAR software and projects)
+
+### Example (public) GitHub organization READMEs:
+
+- **[Outdoor Equity](https://github.com/outdoor-equity)**, by Halina Do-Linh & Clarissa Boyajian (MEDS 2022 Capstone project) 
+- **[CASAschools](https://github.com/CASAschools)**, by Liane Chen, Charlie Curtin, Kristina Glass & Hazel Vaquero (MEDS 2024 Capstone project)
+- **[NMFS Open Science](https://github.com/nmfs-opensci)**, by the National Marine Fisheries Service (contains work which supports open science and open data literacy across NOAA fisheries)
+- **[NASA Goddard Institute for Space Studies](https://github.com/NASA-GISS)**, by NASA (laboratory in the Earth Sciences Division of NASA’s Goddard Space Flight Center)
+- **[GitHub](https://github.com/github)**, by GitHub (yes, GitHub is built on GitHub!)

@@ -1,0 +1,23 @@
+---
+format: 
+  html:
+    theme: meds-website-styles.scss
+    mainfont: Nunito
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+---
+
+## Wikis {#wikis}
+
+While READMEs are used to provide a quick overview of what your project can do, wikis are used to provide additional documentation. From [GitHub Docs](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis):
+
+>“You can use your repository's wiki to share long-form content about your project, such as how to use it, how you designed it, or its core principles”
+
+A great way to streamline a repository's README is to move any documentation-style information to a wiki, and then link to the appropriate wiki page from your README. Each wiki page should focus on a single topic.
+
+### Example GitHub repository wikis: 
+- [Openscapes website wiki](https://github.com/Openscapes/website-new/wiki), by Openscapes (a user-guide of sorts; notes and conventions for Openscapes website maintainers and contributors) 
+- [NCEAS Roundtable (August 2023) workshop materials wiki](https://github.com/samanthacsik/cute-cats-dogs/wiki), by Samantha Csik (setup instructions for workshop participants)
+- [`{xaringan}` wiki](https://github.com/yihui/xaringan/wiki), by Yihui Xie (includes tips and further customizations that aren't covered in the official R package documentation)
