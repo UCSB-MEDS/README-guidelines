@@ -73,3 +73,19 @@ Each project is different and so is its README. As you browse through different 
 - **[palmerpenguins](https://github.com/allisonhorst/palmerpenguins/)** - an R package that contains teaching data
 - **[metajam](https://github.com/NCEAS/metajam)** - an R package for downloading and reading in metadata from repositories in the DataONE network
 - **[awesome-readme](https://github.com/matiassingers/awesome-readme)**, by Matias Singers - a curated list of awesome READMEs
+
+::: {.callout-tip}
+## Don't forget to update your repo's "About" section as well!
+
+To the right of every GitHub repository lives an "About" section, where visitors can find some brief but helpful information about the project. For example, take a look at Allison Horst's [palmerpenguins](https://github.com/allisonhorst/palmerpenguins/) repository:
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "100%"
+#| fig-align: "center"
+knitr::include_graphics("images/palmerpenguins.png")
+```
+
+**Click on the gear icon to update your repo's About section.** You should always include a short description of the project. It can be super helpful to also add relevant links (e.g. package documentation, a report, a hosted GitHub Page, etc.)
+:::
