@@ -28,6 +28,6 @@ format:
 
 {{< include /sections/repo-READMEs.qmd >}}
 
-{{< include /sections/org-READMEs.qmd >}}
-
 {{< include /sections/wikis.qmd >}}
+
+{{< include /sections/org-READMEs.qmd >}}

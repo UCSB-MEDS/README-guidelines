@@ -11,6 +11,8 @@ format:
 
 ## Organization-level READMEs
 
+[GitHub organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations) are shared accounts, that comprise members (each with their own *personal* GitHub account) who can collaborate across many projects at once. 
+
 **You have the option to add both public (visible to anyone) and private (visible only to organization members) profile READMEs to separately serve each of those communities.** The content you choose to include in an organization profile README is quite flexible, but it's often valuable to add the purpose of the organization, any high-level summary information, and links to important websites / external resources / specific repositories within the organization. **Alternatively (or in addition to), you can update your organization's profile information, including a title and description, as well as relevant links -- these will appear across the top of your organization's landing page.** For example, see [LTER's GitHub organization](https://github.com/lter), which includes both updated profile information *and* a public README:
 
 ```{r}
