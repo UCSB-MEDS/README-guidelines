@@ -17,6 +17,14 @@ While READMEs are used to provide a quick overview of what your project is / doe
 
 A great way to streamline a repository's README is to move any documentation-style information to a wiki, and then link to the appropriate wiki page from your README. Each wiki page should focus on a single topic.
 
+::: {.callout-tip collapse=true}
+## How to add a wiki:
+
+1. Navigate to your repository's landing page > click **Wiki** (top menu)
+2. Click the green **Create the first page** button to create your wiki's landing page > add content > click **Save page** 
+3. To add additional pages, click the green **New page button** (top right corner when you're on your wiki's home page) > provide a title / content > click **Save page**
+:::
+
 ### Example GitHub repository wikis: 
 - [Openscapes website wiki](https://github.com/Openscapes/website-new/wiki), by Openscapes (a user-guide of sorts; notes and conventions for Openscapes website maintainers and contributors) 
 - [NCEAS Roundtable (August 2023) workshop materials wiki](https://github.com/samanthacsik/cute-cats-dogs/wiki), by Samantha Csik (setup instructions for workshop participants)

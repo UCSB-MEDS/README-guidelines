@@ -13,6 +13,26 @@ format:
 
 **You should always include a [README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in the root directory of your GitHub repositories.** A README is typically the first item that visitors will see when they arrive at your repository. This makes them the perfect place to tell people what your project is, why its useful, and how to get started using it. What you include in a given README will look different depending on the project, but here are some guidelines for getting started:
 
+::: {.callout-tip collapse=true}
+## How to add a repository-level README:
+
+*There are a number of different ways:*
+
+**From GitHub:**
+
+  a. Check the **Add a README file** box when creating a repository from GitHub, or
+  b. Click the green **Add a README** button that appears below your files on a GitHub repository that does not yet have a README
+  c. Click the **Add file** button at the top of a repository's landing page (next to the green **Code** button) > select **+ Create new file** > name it `README.md` and add content > click **Commit changes...**
+
+**From RStudio (GUI):**
+
+  d. Use the **Files pane** to click **Blank File** > select **Text File** > type `README.md`
+
+**From the command line:**
+
+  e. Navigate to your repository's root directory using `cd` (use `pwd` to verify / check your location) > type `touch README.md`
+:::
+
 ### Things you should *always* include in your GitHub repository READMEs: {#always-include}
 
 ::: {.callout-important}

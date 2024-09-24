@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 3, 2024</p>
+      <p class="date-modified">September 24, 2024</p>
     </div>
   </div>
     
@@ -127,6 +127,36 @@ Why the all caps?
 <section id="repository-level-readmes" class="level2">
 <h2 class="anchored" data-anchor-id="repository-level-readmes">Repository-level READMEs</h2>
 <p><strong>You should always include a <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">README</a> in the root directory of your GitHub repositories.</strong> A README is typically the first item that visitors will see when they arrive at your repository. This makes them the perfect place to tell people what your project is, why its useful, and how to get started using it. What you include in a given README will look different depending on the project, but here are some guidelines for getting started:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to add a repository-level README:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>There are a number of different ways:</em></p>
+<p><strong>From GitHub:</strong></p>
+<ol type="a">
+<li>Check the <strong>Add a README file</strong> box when creating a repository from GitHub, or</li>
+<li>Click the green <strong>Add a README</strong> button that appears below your files on a GitHub repository that does not yet have a README</li>
+<li>Click the <strong>Add file</strong> button at the top of a repository’s landing page (next to the green <strong>Code</strong> button) &gt; select <strong>+ Create new file</strong> &gt; name it <code>README.md</code> and add content &gt; click <strong>Commit changes…</strong></li>
+</ol>
+<p><strong>From RStudio (GUI):</strong></p>
+<ol start="4" type="a">
+<li>Use the <strong>Files pane</strong> to click <strong>Blank File</strong> &gt; select <strong>Text File</strong> &gt; type <code>README.md</code></li>
+</ol>
+<p><strong>From the command line:</strong></p>
+<ol start="5" type="a">
+<li>Navigate to your repository’s root directory using <code>cd</code> (use <code>pwd</code> to verify / check your location) &gt; type <code>touch README.md</code></li>
+</ol>
+</div>
+</div>
+</div>
 <section id="always-include" class="level3">
 <h3 class="anchored" data-anchor-id="always-include">Things you should <em>always</em> include in your GitHub repository READMEs:</h3>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -266,6 +296,26 @@ Don’t forget to update your repo’s “About” section as well!
 <p>“You can use your repository’s wiki to share long-form content about your project, such as how to use it, how you designed it, or its core principles”</p>
 </blockquote>
 <p>A great way to streamline a repository’s README is to move any documentation-style information to a wiki, and then link to the appropriate wiki page from your README. Each wiki page should focus on a single topic.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to add a wiki:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Navigate to your repository’s landing page &gt; click <strong>Wiki</strong> (top menu)</li>
+<li>Click the green <strong>Create the first page</strong> button to create your wiki’s landing page &gt; add content &gt; click <strong>Save page</strong></li>
+<li>To add additional pages, click the green <strong>New page button</strong> (top right corner when you’re on your wiki’s home page) &gt; provide a title / content &gt; click <strong>Save page</strong></li>
+</ol>
+</div>
+</div>
+</div>
 <section id="example-github-repository-wikis" class="level3">
 <h3 class="anchored" data-anchor-id="example-github-repository-wikis">Example GitHub repository wikis:</h3>
 <ul>
@@ -278,7 +328,50 @@ Don’t forget to update your repo’s “About” section as well!
 <section id="organization-level-readmes" class="level2">
 <h2 class="anchored" data-anchor-id="organization-level-readmes">Organization-level READMEs</h2>
 <p><a href="https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations">GitHub organizations</a> are shared accounts, that comprise members (each with their own <em>personal</em> GitHub account) who can collaborate across many projects at once.</p>
-<p><strong>You have the option to add both public (visible to anyone) and private (visible only to organization members) profile READMEs to separately serve each of those communities.</strong> The content you choose to include in an organization profile README is quite flexible, but it’s often valuable to add the purpose of the organization, any high-level summary information, and links to important websites / external resources / specific repositories within the organization. <strong>Alternatively (or in addition to), you can update your organization’s profile information, including a title and description, as well as relevant links – these will appear across the top of your organization’s landing page.</strong> For example, see <a href="https://github.com/lter">LTER’s GitHub organization</a>, which includes both updated profile information <em>and</em> a public README:</p>
+<p><strong>You have the option to add both public (visible to anyone) and private (visible only to organization members) profile READMEs to separately serve each of those communities.</strong> The content you choose to include in an organization profile README is quite flexible, but it’s often valuable to add the purpose of the organization, any high-level summary information, and links to important websites / external resources / specific repositories within the organization.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to add an organization-level README:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>README that’s visible to the public:</strong></p>
+<ol type="1">
+<li>Create a <em>public</em> repository within your organization and name it <code>.github</code></li>
+<li>Add a folder named <code>profile</code> to your <code>.github</code> repository, then add a <code>README.md</code> file inside <code>profile/</code> (i.e.&nbsp;<code>.github/profile/README.md</code>)</li>
+</ol>
+<p><strong>README that’s visible to members only:</strong></p>
+<ol type="1">
+<li>Create a <em>private</em> repository within your organization and name it <code>.github-private</code></li>
+<li>Add a folder named <code>profile</code> to your <code>.github-private</code> repository, then add a <code>README.md</code> file inside <code>profile/</code> (i.e.&nbsp;<code>.github-private/profile/README.md</code>)</li>
+</ol>
+</div>
+</div>
+</div>
+<p><strong>Alternatively (or in addition to), you can update your organization’s profile information, including a title and description, as well as relevant links – these will appear across the top of your organization’s landing page.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to update an organization’s profile information
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Click on the Settings tab (top menu) to update your organization’s profile picture, description, add URLs, etc.</p>
+</div>
+</div>
+</div>
+<p>For example, see <a href="https://github.com/lter">LTER’s GitHub organization</a>, which includes both updated profile information <em>and</em> a public README:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
