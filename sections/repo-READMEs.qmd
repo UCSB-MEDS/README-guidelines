@@ -50,8 +50,9 @@ These core elements are required for *all* MEDS-related homework assignments and
    - Any necessary information on where data lives (e.g. is it housed in the repo, on a server, in a library / package etc.) and how to access it in order to run the code
 - [ ] [**A list of authors or current contributors (for collaborative work)**]{.teal-text} 
     - Consider hyperlinking collaborators' GitHub profiles or other professional profile
-- [ ] [**References / Acknowledgements**]{.teal-text}  
+- [ ] [**References and / or Acknowledgements**]{.teal-text}  
     - In an appropriate, consistent format, including links
+    - Provide reference to any other individuals or sources that supported the development of the repository. For example, did you fork an existing repository? Did the work have any funding sources? Were there individuals you consulted with or were inspired by?
     - Don't forget to add references for data sets too
     
 ### Things you should consider including, but may vary depending on the goals and complexity of the project: {#consider-including}
@@ -70,8 +71,6 @@ These core elements are required for *all* MEDS-related homework assignments and
         a. *Licensing code / software:* check out this page, [Choose an open source license](https://choosealicense.com/), by GitHub. A couple popular options for software include [MIT License](https://choosealicense.com/licenses/mit/) and [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
         b. *Licensing content (i.e. non-software):* check out this page, [About CC Licenses](https://creativecommons.org/share-your-work/cclicenses/), by Creative Commons. A few good CC options for non-software content include [CC BY](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1), [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), and [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
         c. *Licensing data:* You'll chat more about this in [EDS 213 (Databases and Data Management)](https://bren.ucsb.edu/courses/eds-213)!
-- [ ] [**Acknowledgements**]{.teal-text}
-    - Provide reference to any other individuals or sources that supported the development of the repository. For example, did you fork an existing repository? Did the work have any funding sources? Were there individuals you consulted with or were inspired by?
     
 ::: {.callout-note}
 ## Keep READMEs concise
