@@ -46,6 +46,59 @@ These core elements are required for *all* MEDS-related homework assignments and
     - You may include an image or logo that represents the project
 - [ ] [**A concise description of what’s housed in the repository**]{.teal-text} 
     - This includes information about the repository structure or file organization
+
+::: {.callout-tip collapse=true}
+## Creating a repository structure using `tree`
+
+The `tree` command-line tool prints a visual, hierarchical map of your directory. The nicely outputted tree can be pasted into your README to orient newcomers to your file organization.
+
+**Install `tree`:**
+
+*Mac (requires [Homebrew](https://brew.sh/)):*
+```bash
+brew install tree
+```
+
+*Windows (requires [Chocolatey](https://chocolatey.org/)):*
+```bash
+choco install tree
+```
+
+Alternatively on Windows, `tree` is available via [Git Bash](https://gitforwindows.org/) or [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+**Generate your repository structure:**
+
+Navigate to your repository's root directory, then run:
+```bash
+tree
+```
+
+Some useful flags:
+
+| Flag | Description |
+|------|-------------|
+| `-L 2` | Limit depth to 2 levels (replace `2` with your  preferred depth) |
+| `-a` | Include hidden files (e.g. `.gitignore`) |
+| `--gitignore` | Exclude files listed in `.gitignore` |
+| `-I "directory_name"` | Exclude a specific directory by name |
+
+**Copy the output into your README** inside a code block (use triple backticks) so it renders as fixed-width text:
+
+````markdown
+```
+my-repo/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── scripts/
+│   └── analysis.R
+└── README.md
+```
+````
+
+:::
+
+
 - [ ] [**Details regarding data access**]{.teal-text} 
    - Any necessary information on where data lives (e.g. is it housed in the repo, on a server, in a library / package etc.) and how to access it in order to run the code
 - [ ] [**A list of authors or current contributors (for collaborative work)**]{.teal-text} 
@@ -87,7 +140,6 @@ Each project is different and so is its README. As you browse through different 
 
 - **[strava-dashboard](https://github.com/samanthacsik/strava-dashboard)**, by Samantha Csik - code for a Shiny dashboard
 - **[EDS-240-data-viz](https://github.com/samanthacsik/EDS-240-data-viz)**, by Samantha Csik - code for a course website
-- **[thomas-fire](https://github.com/annaramji/thomas-fire)**, by Anna Ramji - a MEDS student project
 - **[xarray](https://github.com/pydata/xarray)** - a Python package for working with multidimensional arrays and datasets
 - **[palmerpenguins](https://github.com/allisonhorst/palmerpenguins/)** - an R package that contains teaching data
 - **[metajam](https://github.com/NCEAS/metajam)** - an R package for downloading and reading in metadata from repositories in the DataONE network
