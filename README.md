@@ -8,4 +8,4 @@ These [README guidelines](https://ucsb-meds.github.io/README-guidelines/) are em
 
 ## Contributers
 
-These guidelines were drafted by MEDS staff and faculty [Sam Csik](https://github.com/samanthacsik), [Julien Brun](https://github.com/brunj7), [Carmen Galaz Garcia](https://github.com/carmengg), [Ruth Oliver](https://github.com/ryoliver), and [Max Czapanskiy](https://github.com/FlukeAndFeather), and draw from personal experiences and existing recommendations / standards which are widely adopted by the data science and programming communities.
+These guidelines were drafted by MEDS staff and faculty [Sam Csik](https://github.com/samanthacsik), [Julien Brun](https://github.com/brunj7), [Carmen Galaz Garcia](https://github.com/carmengg), [Ruth Oliver](https://github.com/ryoliver), [Max Czapanskiy](https://github.com/FlukeAndFeather),and [Annie Adams](https://github.com/annieradams) and draw from personal experiences and existing recommendations / standards which are widely adopted by the data science and programming communities.
